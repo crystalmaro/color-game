@@ -1,0 +1,97 @@
+body {
+    background-color: #eee9e9;
+    margin: 0;
+    /* font-family: "Montserrat", "Avenir"; */
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 0.15rem;
+    color: #5b5959;
+}
+
+.square {
+     background: pink;
+     width: 30%;
+     padding-bottom: 30%;
+     margin: 1.66%;
+     float: left;
+     border-radius: 1.5rem;
+     transition: background 0.5s;
+     /* below supports diff browsers */
+     --webkit-transition: background 0.5s;
+     --moz-transition: background 0.5s;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 30rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    line-height: 1.1;
+    padding: 20px 0;
+    margin-bottom: 0;
+    transition: background 0.5s;
+}
+
+#colorDisplay {
+    font-size: 3rem;
+}
+
+.stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    border: none;
+    height: 100%;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 0.15rem;
+    font-size: inherit;
+    transition: all 0.5s;
+    --webkit-transition: all 0.5s;
+    --moz-transition: all 0.5s;
+    outline: none;
+   
+}
+
+button:hover {
+    background: #eee9e9;
+    color: #5b5959;
+}
+
+.selected {
+    background: #eee9e9;
+    color: #5b5959;
+}
+
+.message {
+    display: inline-block;
+    width: 20%;
+}
+
+.infoBar {
+    margin: 1rem;
+    font-size: inherit;
+}
+
+.contact {
+    position: absolute;
+    width: auto;
+    right: 1rem;
+}
+
+.winner {
+    box-shadow: 0 0 10px #282727;
+    border-radius: 0.3rem;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
